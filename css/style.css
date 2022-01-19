@@ -113,7 +113,7 @@ position: relative;
 @media(max-width: 767px ) {
     .header__menu {
         margin: 0px 0px 0px 40px;
-        background-color: rgb(96, 243, 170);
+      /**  background-color: rgb(96, 243, 170); **/
         display: flex;
     }
 }
@@ -121,7 +121,7 @@ position: relative;
 @media (max-width: 479px){
     .header__menu {
         margin: 0px 0px 0px 10px;
-        background-color: rgb(245, 169, 241);
+        /**background-color: rgb(245, 169, 241); **/
         display: flex;
         
     }
