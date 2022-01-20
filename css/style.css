@@ -92,8 +92,6 @@ position: relative;
     color: rgb(255, 48, 7);
     transition-property: color;
     transition-duration: 3s;
-
-    
 }
 
 .menu {
@@ -102,18 +100,18 @@ position: relative;
 .header__menu {
     margin: 0 0 0 80px;
 }
+
 @media(max-width: 992px ) {
 .header__menu {
     margin: 0px 0px 0px 60px;
-    background-color: lightblue;
     display: flex;
     }
 }
+
 /**--------планшет-----------**/
 @media(max-width: 767px ) {
     .header__menu {
         margin: 0px 0px 0px 40px;
-      /**  background-color: rgb(96, 243, 170); **/
         display: flex;
     }
 }
@@ -121,9 +119,7 @@ position: relative;
 @media (max-width: 479px){
     .header__menu {
         margin: 0px 0px 0px 10px;
-        /**background-color: rgb(245, 169, 241); **/
         display: flex;
-        
     }
 }
 .menu__list {
@@ -187,6 +183,5 @@ position: relative;
 
 /*----------------------------------------------------footer---*/
 .footer{
-    
-
-}  
+    background-color: aqua;
+}
